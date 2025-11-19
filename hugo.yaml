@@ -1,6 +1,7 @@
 baseURL: "https://1ceshadow.github.io/1ceshadow-blog/"
 title: 1ceshadow's site
 languageCode: 'zh-cn'
+copyright: "© [1ceshadow](https://github.com/1ceshadow/)"
 theme: PaperMod
 
 enableRobotsTXT: true
@@ -21,7 +22,7 @@ params:
   keywords: [Blog, Portfolio, PaperMod]
   author: Me
   # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
+  images: ["images/reyna.png"]
   DateFormat: "2025.11.19"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -39,8 +40,10 @@ params:
   comments: true
   hidemeta: false
   hideSummary: false
-  showtoc: false
+  showtoc: true
   tocopen: false
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
 
   assets:
     # disableHLJS: true # to disable highlight.js
@@ -59,7 +62,7 @@ params:
   # profile-mode
   profileMode:
     enabled: false # needs to be explicitly set
-    title: ExampleSite
+    title: 1ceshadow site
     subtitle: "This is subtitle"
     imageUrl: "<img location>"
     imageWidth: 120
@@ -127,6 +130,7 @@ menu:
       name: example.org
       url: https://example.org
       weight: 30
+    - 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
@@ -140,3 +144,9 @@ markup:
 
 pagination:
   pagerSize: 10   # 这里10是每页文章数，随便改成5、15都行
+
+outputs:
+  home: 
+    - HTML
+    - RSS
+    - JSON
