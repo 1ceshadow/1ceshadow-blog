@@ -1,6 +1,6 @@
 ---
-title: parrot os 配置日志
-date: 2025-05-26 18:58:49
+title: parrot-os配置日志
+date: 2025-11-20 00:03:54
 feed: show
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: arch linux配置日志
-date: 2025-06-21 14:26:10
+title: arch-linux配置日志
+date: 2025-11-19 23:50:26
 feed: show
 ---
 用了几天arch linux越发喜欢，系统是如此流畅，如此舒服。上手也经过一个短暂的痛苦期  

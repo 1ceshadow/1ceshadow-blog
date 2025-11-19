@@ -1,6 +1,6 @@
 ---
-title: arch linux重新配置
-date: 2025-10-12 00:27:57
+title: arch-linux重新配置
+date: 2025-11-19 23:54:13
 feed: show
 ---
 安装好电脑并更新  
