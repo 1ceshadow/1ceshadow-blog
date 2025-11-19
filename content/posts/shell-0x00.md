@@ -19,10 +19,11 @@ feed: show
 + **cp** : copy  
 + **rm** : remove, delete a file   %% move 重在移动；remove重在脱离原来位置 %%
 + **grep** : global search regular expression and print out the line
-注：Linux命令是调用可执行程序，调用`/bin` 或`/usr/bin` `/usr/local/bin`等下的程序，shell命令是bash, zsh等直接解释执行的命令。
+注：Linux命令是调用可执行程序，调用`/bin` 或`/usr/bin` `/usr/local/bin`等下的程序，shell命令是bash, zsh等直接解释执行的命令。  
 
 ---
-[bash官方手册](https://www.gnu.org/software/bash/manual/bash.html) [中文译本](E:\learn_resource\计算机\linux\Bash4.0参考文档.pdf)
+[bash官方手册](https://www.gnu.org/software/bash/manual/bash.html) [中文译本](E:\learn_resource\计算机\linux\Bash4.0参考文档.pdf)  
+
 **正式开始**
 
 ## 解释器

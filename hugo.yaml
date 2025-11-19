@@ -119,24 +119,15 @@ params:
 menu:
   main:
     - name: 文章
-      url: /archive/
+      url: archives
       weight: 10
-    - identifier: categories
-      name: categories
-      url: /categories/
-      weight: 20
     - identifier: tags
       name: tags
-      url: /tags/
+      url: tags/
       weight: 30
     - name: search
-      url: /search/
+      url: search/
       weight: 40
-    - identifier: example
-      name: example.org
-      url: https://example.org
-      weight: 50
-    - 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
