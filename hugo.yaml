@@ -20,10 +20,10 @@ params:
   title: ExampleSite
   description: "ExampleSite description"
   keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  author: 1ceshadow
   # author: ["Me", "You"] # multiple authors
   images: ["images/reyna.png"]
-  DateFormat: "2025.11.19"
+  DateFormat: "2025年11月19日"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
